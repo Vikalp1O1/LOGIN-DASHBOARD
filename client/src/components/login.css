@@ -1,0 +1,95 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #00c6a7, #1e4d92);
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    background-color: #1e2d3d;
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .login-header {
+    background-color: #00f5d4;
+    padding: 10px 0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    left: 0;
+  }
+  
+  .avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 40px auto 20px;
+  }
+  
+  form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #2e3a4d;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #00f5d4;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .login-footer a {
+    color: #00f5d4;
+    text-decoration: none;
+  }
+  
+  .avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 40px auto 20px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/149/149071.png'); /* 👈 Empty avatar */
+    background-size: cover;
+    background-position: center;
+  }
+  
